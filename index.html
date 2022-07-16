@@ -1,9 +1,158 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" >
+    <link rel="stylesheet" href="index.css">
+</head>
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>Coding Cheat Sheet</h1>
+        <nav>       
+            <a href="#HTML"><li>HTML</li></a>
+            <a href="#CSS"><li>CSS</li></a>
+            <a href="#"><li>Javascript (Coming Soon)</li></a>
+            <a href="#"><li>Python (Coming Soon)</li></a>
+            <a href="#"><li>C++ (Coming Soon)</li></a>
+        </nav>
+    </header>
+    <div class="intro">
+        <h1>Mission Statement</h2>
+        <p>This project is to jot down challenging code that's giving me a hard time. Think of this project as notes on coding. The only coding elements that will display header
+            are elements that are confusing me and/or are tough to get. I will continually update this page and hopefully add some interesting elements as my understanding increases.
+            This will later include other coding languages such as:</p>
+            <ul>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>C++</li>
+                <li>...and many more!</li>
+            </ul>
+    </div>
+    <!--HTML Table Section-->
+    <section class="rightBar">
+        <h2>Who is the Developer?</h2><br>
+        <img src="../codecademy/resources/images/bassett_profile.jpg" alt="Jason Bassett Profile Image"/>
+        <p><strong>Jason "Bass" Bassett</strong> is a brand new developer who is trying to learn all sorts of programming.
+            Jason is creating this page to help him out to understand more about programming and using this space
+            as a way to understand the code that he is writing.</p><br>
+            <hr><br>
+        <h3>RESOURCES</h3>
+        <p>The information found on this page can also be found on the following website:</p><br>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Resource for Developers by Mozilla</a></li>
+            <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+        </ul>
+        <hr><br>
+        <h3>CONTACT</h3>
+        <p>You can contact Jason at the following email: <a href="mailto:thabass@gmail.com">thabass@gmail.com</a>.</p>
+    </section>
+
+    <section>
+        <div class="code_table" id="HTML">
+            <h1>HTML Code Examples</h1>
+            <p>The following section will display the code that has kicked my ass throughout learning HTML.</p>
+            <p>Each property will contain a link the the <a href="https://developer.mozilla.org/en-US/MDN" target=_blank> MDN Resource for Developer's</a> website.</p>
+            <table>
+                <thead>
+                    <th colspan="2" class="langTableHead">HTML Tags & Definitions</th>
+                </thead>
+                <tbody>
+                    <th width= 100px id="htmlCode">HTML Tag</th>
+                    <th width = 1000px id="htmlDef">HTML Description</th>
+                    <tr>
+                        <td class="codeName"><strong>&lt;table&gt;</strong></td>
+                        <td class="codeDescription">This is the beginning of the table element. This the element you should use when beginning to make a table.</td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong>&lt;thead&gt;</strong></td>
+                        <td class="codeDescription">THEAD should be the next element you use under table. This is basically a metatag so you can ensure that all headers
+                        are fit snuggly in the table correctly.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong>&lt;tbody&gt;</strong></td>
+                        <td class="codeDescription">TBODY will be used for the actual content of the table. Always make sure this goes <em>BENEATH</em> the
+                        THEAD element.</td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong>&lt;th&gt;</strong></td>
+                        <td class="codeDescription">This element will create the actual header of the cell. Think of this as a title of the column, simuilar to work's excel spreadsheets. </td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong>&lt;tr&gt;</strong></td>
+                        <td class="codeDescription">TR will creat the row of the cell you want to make. This comes after the TH element and will create the physical row of the table for
+                            the data. This should always go BEFORE &lt; TD &gt;.</td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong>&lt;td&gt;</strong></td>
+                        <td class="codeDescription">This is the element that will contain the actual data of your table. You know...the important stuff. This comes last when entering data
+                            for the table.</td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong>&lt;pre&gt;</strong></td>
+                        <td class="codeDescription">The "pre" tag stands for "preformatted" and will not execute any HMTL or CSS property that's coded inside of it.
+                        </td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+            <div class="code_table" id="CSS">
+            <h1>CSS Code Examples</h1>
+            <p>The following is a bunch of CSS codes and rules to remember. These all won't particularly be codes, but they will be
+             handy tips to remember when working with CSS.</p><br>
+            <p>Each property will contain a link the the <a href="https://developer.mozilla.org/en-US/MDN" target=_blank> MDN Resource for Developer's</a> website.</p>
+            <table>
+                <thead>
+                    <th colspan="2" class="langTableHead">CSS Properties & Definitions</th>
+                </thead>
+                <tbody>
+                    <th width=100px id="cssCode">CSS Properties</th>
+                    <th id="cssDef">CSS Description</th>
+                    <tr>
+                        <td class="codeName"><strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">Position</a></strong></td>
+                        <td class="codeDescription">Position can be used in a multitude of ways. It can be used to move elements around in order "position" them around
+                            a webpage. The following can be used in-junction with this property:</p><br>
+                            <ul>
+                                <li><strong>Static</strong>: This is the default value. This position keeps the element part of the normal flow of the document.
+                                This will only needed to be spelled out when you need to reset the element when it's nested in another element with a different
+                                position property listed.</li><br>
+
+                                <li><strong>Absolute</strong>: This will remove the element from the webpage's design flow and will give the element no space
+                                in the layout. This element used in tandem with the TOP, LEFT, RIGHT, and BOTTOM positioning properties. </li><br>
+
+                                <li><strong>Fixed</strong>: The attribute will place the element <em>out of the normal flow of the document</em>. It creates
+                                no space for the element in the page layout and its positioning is based on the containg block of the document.</li><br>
+
+                                <li><strong>Absolute</strong>: This will remove the element from the webpage's design flow and will give the element no space
+                                in the layout. This element used in tandem with the TOP, LEFT, RIGHT, and BOTTOM positioning properties. </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="codeName"><strong><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">Float</a></strong></td>
+                        <td class="codeDescription">Using float will make it so make the element move over to the position where you want that element
+                            to be on the page. You can use float with the following <em>common</em> attributes:<br>
+                            <ul id="floatUL">
+                                <li>left</li>
+                                <li>right</li>
+                                <li>inline-start</li>
+                                <li>inline-end</li>
+                                <li>none</li>
+                            </ul><br>
+                            Float will also allow text to move around images and other elements. This makes it appear as if the element is trying to move
+                            out of the way of other elements.
+                        </td>
+                    </tr>
+                </tbody>
+          </table>
+          </div>
+        </div>
+    </section>
+    <footer>
+        <p>This page was created by Jason Bassett. The cheat sheet will be used to rememeber all sorts of coding languages!</p>
+    </footer> 
 </body>
- 
 </html>
