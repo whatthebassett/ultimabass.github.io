@@ -19,21 +19,11 @@ a:hover {
     color: rgb(0,0,0);
 }
 
-footer {
-    width: 1000px;
-    border-radius: 10px;
-    height: 50px;
-    color: rgb(250, 250, 250);
-    background-color: rgba(0,0,0, 0.5);
+section {
+    width: 800px;
     margin: 0 auto;
-    padding-top: 30px;
     text-align: center;
-    position: sticky;
-    bottom: 5px;
 }
-/*End Global Styling */
-
-/*Header and Nav Styling */
 
 header h1 {
     text-align: center;
@@ -69,14 +59,27 @@ nav a:hover {
     background-color: rgb(255,100,200);
 
 }
+
+footer {
+    width: 1000px;
+    border-radius: 10px;
+    height: 50px;
+    color: rgb(250, 250, 250);
+    background-color: rgba(0,0,0, 0.5);
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    position: sticky;
+    bottom: 5px;
+}
+
 /* End Header and Nav Styling*/
 
 /*Main Content Styling*/
 
-section {
-    width: 800px;
+.container { 
+    width: 1500px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .intro {
@@ -91,75 +94,20 @@ section {
     color:rgb(100, 0, 255);
 }
 .intro ul {
-    position: relative;
+    /* position: relative;
     top: 20px;
-    left: 200px;
+    left: 200px; */
 }
-
-/* Table Styling */
-table {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    clear:left;
-}
-
-th, tr, td {
-    border: 1px dotted black;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-thead {
-    background-color: rgb(100, 0, 255);
-}
-
-td{
-    background-color: rgb(200, 200, 255);
-    list-style-position: inside;
-}
-
-th {
-    background-color: rgb(91, 7, 217);
-    color: white;
-}
-
-.code_table {
-    margin: 50px 0;
-}
-
-.codeName {
-    text-align: center;
-    vertical-align: text-top;
-}
-
-.codeDescription {
-    vertical-align: top;
-    text-align: left;
-}
-
-.langTableHead {
-    color: white;
-    background-color: rgb(91, 7, 217);
-    font-size: 20px;
-}
-
-#CSS {
-    margin: 20px 0;
-}
-/*End table styling */
-
-
 
 /*Right Sidebar Styling*/
 .rightBar {
     width: 300px;
     height: 1000px;
-    float: right;
-    margin-top: -220px;
-    margin-right: 30px;
+    margin-left: 100px;
     background-color: rgb(250, 245, 250);
     border-radius: 10px;
     padding: 10px;
+    float: right;
 }
 
 .rightBar ul {
@@ -193,6 +141,58 @@ th {
 }
 /*End Right Bar Styling*/
 
+/* Table Styling */
+table {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    clear:left;
+}
+
+th, tr, td {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+thead {
+    background-color: rgb(100, 0, 255);
+}
+
+td{
+    background-color: rgb(200, 200, 255);
+    list-style-position: inside;
+}
+
+th {
+    background-color: rgb(91, 7, 217);
+    color: white;
+}
+
+.code_table {
+    margin-top: 50px;
+    width: 800px;
+}
+
+.codeName {
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.codeDescription {
+    vertical-align: top;
+    text-align: left;
+}
+
+.langTableHead {
+    color: white;
+    background-color: rgb(91, 7, 217);
+    font-size: 20px;
+}
+
+#CSS {
+    margin: 20px 0;
+}
+/*End table styling */
 
 
 /*Specific Footer Styling*/
