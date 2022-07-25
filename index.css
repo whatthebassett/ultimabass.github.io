@@ -78,7 +78,7 @@ footer {
 /*Main Content Styling*/
 
 .container { 
-    width: 1500px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -94,16 +94,21 @@ footer {
     color:rgb(100, 0, 255);
 }
 .intro ul {
-    /* position: relative;
-    top: 20px;
-    left: 200px; */
+    position: relative;
+    top: 10px;
+    left: 325px;
+    text-align: left;
+}
+
+.intro li {
+    list-style-position: inside;
 }
 
 /*Right Sidebar Styling*/
 .rightBar {
     width: 300px;
-    height: 1000px;
-    margin-left: 100px;
+    height: 500px;
+    margin-right: -280px;
     background-color: rgb(250, 245, 250);
     border-radius: 10px;
     padding: 10px;
@@ -145,7 +150,6 @@ footer {
 table {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    clear:left;
 }
 
 th, tr, td {
