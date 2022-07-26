@@ -88,6 +88,10 @@ footer {
     margin-top: 30px;
 }
 
+.intro p {
+    text-align: justify;
+}
+
 .intro h1 {
     text-align: center; 
     font-size: 30px;
