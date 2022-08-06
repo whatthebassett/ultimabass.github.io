@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+a {
+    color: #6644FF;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #000;
+    transition: color .3s;
+}
+
 .container {
     margin: 0 auto;
     padding: 20px;
@@ -17,48 +28,39 @@ h1 {
     margin-left: 5px;
 }
 
+h2 {
+    margin: 10px 0 0px 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 10px 0 0px 20px;
+    font-family: "Franklin Gothic Medium", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 hr {
     width: 1050px;
 }
 
 p {
     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400px;
+    padding: 10px 0 5px 20px;
 }
 
-
-/*Color Tables and Embedded Styling*/
-
-#color-table {
+.content-container  {
     width: 1050px;
     border: 2px solid #3300aa;
     margin-top: 10px;
 }
 
 
-.colors p {
-    padding: 15px 0 5px 20px;
-    font-size: 14px;
-    clear: left;
-}
-
-#color-table h2 {
-    margin: 10px 0 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-#color-table h3 {
-    margin: 10px 0 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-}
-
+/*Color Container and Embedded Styling*/
 #pugent_purple {
     width: 300px;
     height: 50px;
@@ -104,97 +106,62 @@ p {
     border: 3px solid black;
 }
 
-/*Font Table Styles*/
+#color-table p {
+    margin-bottom: 5px;
+
+}
+
+/*Font Container and Embedded Styling*/
 
 .font-panel {
-    width: 25%;
+    width: 30%;
     margin: 10px 0;
     display: inline-block;
 }
 
+#font-table p {
+    padding: 15px;
+}
+
 #fgmNormal {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: -15px;
 }
 
 #fgmEmphasis {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: -15px;
 }
 
 #fgmColor {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: #FF00A0;
 
 }
 
 #fglNormal {
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: -15px;
 }
 
 #fglEmphasis {
-    font-size: 12px;
+    font-size: 16px;
     font-style: italic;
     margin-bottom: -15px;
 }
 
 #fglColor {
-    font-size: 12px;
+    font-size: 16px;
     color: #FF00A0;
     font-weight: 700;
-
 }
 
-#font-table {
-    width: 1050px;
-    border: 2px solid #3300aa;
-    margin-top: 10px;
-}
-
-#font-table h2 {
-    margin: 10px 0 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-#font-table h3 {
-    margin: 10px 0 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-#text-table {
-    width: 1050px;
-    border: 2px solid #3300aa;
-    margin-top: 10px;
-}
-
-#text-table h2 {
-    margin: 10px 0 10px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-}
-
-#text-table h3 {
-    margin: 10px 0 0px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-}
-
+/*Text Container and Embedded Styling*/
 .style-panel {
-    width: 45%;
+    width: 49%;
     display: inline-block;
     margin: 10px 0;
 }
@@ -203,7 +170,7 @@ p {
     list-style-position: inside;
     margin: 0 0 0 10px;
     font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 5px;
 }
 
@@ -213,4 +180,43 @@ p {
 
 #text-table h1 {
     margin-left: 20px;
+}
+
+/*Button Container and Embedded Styling*/
+
+.button-styles {
+    width: 50%;
+    display: inline;
+}
+
+.btn-style {
+    width: 130px;
+    height: 40px;
+    background-color: #6644FF;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    font-size: 14px;
+    color: #FFF;
+    border: none;
+    box-shadow: 0px 2px 6px black;
+}
+
+.btn-style:hover {
+    background-color: #F0F0FF;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+    color: #000;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+}
+
+.btn-style:active {
+    background-color: #FF00A0;
+    color: #FFF;
 }
