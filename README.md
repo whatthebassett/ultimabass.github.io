@@ -1,1 +1,1 @@
-This readme file will be updated with the latest information about Zero to Master files and folder structure. This is just for my learning, so there's no real need to keep updating this file. I may include my notes in this file as needed, but highly unlikely. 
+This readme file will be updated with the latest information about Zero to Master files and folder structure. This is just for my learning, so there's no real need to keep updating this file. I may include my notes in this file as needed, but highly unlikely.
