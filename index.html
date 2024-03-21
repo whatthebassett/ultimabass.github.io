@@ -17,46 +17,93 @@
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap Demo!</title>
   </head>
+  <!-- BEGIN WEBSITE DESIGN -->
   <body>
     <div class="container d-flex h-100">
       <div class="row">
         <div class="col"></div>
         <header class="text-center">
-          <h1 class="temp" id="headline">Bassett's Portfolio Page</h1>
-          <h2 class="temp animate__animated animate__zoomInUp animate__delay-2s" id="comingSoon">Coming</h2>
-          <h2 class="temp animate__animated animate__zoomInUp animate__delay-3s" id="comingSoon">Soon</h2>
+          <h1 class="headline">Bassett's Portfolio Page</h1>
         </header>
-        <section>
-        <div class="row text-center bio">
-          <div class="col col-6">
-            <img src="assets/bassett_nyc.jpeg" alt="A picture of me in New York City!" height="250px" id="bassett_nyc"> 
-            <h1>About Jason Bassett</h1><br>
-            <p>My name is Jason Bassett.<br>
-              I am training to become a great software developer and I am currently in the process of learning many
-            different languages to improve my understanding of programming and coding.</p>
+      <section>
+      <div class="row text-center bio">
+        <div class="col col-6">
+          <h1>About Jason Bassett</h1><br>
+          <img src="assets/bassett_nyc.jpeg" alt="A picture of me in New York City!" height="250px" id="bassett_nyc"><br>
+          <p>Hi there!</p> My name is Jason, but everyone calls me <strong>Bass</strong>! I don't know why...people just used to call me by my last name and it just kind of stuck! I have many other names as well: Ultima, JB, Jbonez... the list goes on!</p>
+          <p>I am training to become a great software developer and I am currently in the process of learning many different languages to improve my understanding of programming and coding.</p>
+        </div>
+        <div class="col col-6">
+          <h2>Programming Languages</h2>
+          <span>The following coding languages are languages I am currently studying or know. The one's in bold are the one's I currently know.</span>
+          <ul>
+            <li class="known text-primary">HTML 5</li>
+            <li class="known text-primary">CSS 3</li>
+            <li>Javascript</li>
+            <li>Node.JS</li>
+            <li>React</li>
+            <li class="known text-primary">Python</li>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li class="known text-primary">SQL</li>
+          </ul>
+          <p>I am hoping this will land me the job of my dreams as I have always wanted to work in the software industry working as a software developer.</p> 
+          <p>As far as professional experience goes: I worked as a Software Validation Engineer for over 15 years! It's kind of crazy when you think about it, but after getting laid off after all of that time, I have decided to get down to the grind stone and start learning how to become a fully-fledged developer. </p>
+        </div>
+      </div>
+      </section>
+      <hr>
+      <!-- Hobbies Section -->
+      <section class="hobbies-container animate__animated animate__fadeIn animate__delay-1s">
+        <h1 id="hobbies-title">Hobbies <span class="badge text-bg-primary">New</h1></span>
+        <span class="hobbies-description">Whether it playing video games or watching my favorite sports, I am always looking to do more fun and cool things. Here's a collection of things I like to do and see when I'm in my downtime!</span>
+        <!-- VIDEO GAMES CARD -->
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+          <div class="col">
+            <div class="card">
+              <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/418985416_804132586080_1091079637197094802_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=I2HPFjkOHi8AX-SoHqD&_nc_ht=scontent-bos5-1.xx&oh=00_AfD9k0hZPLdY9EPwiSLR6ApkWtTxtt1NMgT4DWeBDZWYvA&oe=6600FE4E" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Video Games</h5>
+                <p class="card-text">I have been a gamer as long as I can remember and it's my number one hobby in the world. My favorite games include: <em><strong>The Legend of Zelda, Final Fantasy, Metal Gear Solid, and Grand Theft Auto!!</strong></em></p>
+              </div>
+            </div>
           </div>
-          <div class="col-6">
-            <h2>Programming Languages</h2>
-            <ul>
-              <li>HTML 5</li>
-              <li>CSS 3</li>
-              <li>Javascript</li>
-              <li>Node.JS</li>
-              <li>React</li>
-              <li>Python</li>
-              <li>Pandas</li>
-              <li>NumPy</li>
-            </ul>
-            <p>I am hoping this will land me the job of my dreams as I have always wanted to work in the software 
-              industry working as a software developer.
-            </p>
+          <!-- Sports Card -->
+          <div class="col">
+            <div class="card">
+              <img src="https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/251342605_771325586570_1473229759233480580_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=O5wttuFRsmQAX_5hUx1&_nc_ht=scontent-bos5-1.xx&oh=00_AfBVR_JvQSsyqffSv0eJKYol2yHuD_VuMiu4yaq1bbhv-w&oe=66026965" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sports</h5>
+                <p class="card-text">I have always been a fan of sports. I played baseball when I was a wee lad, but I can sit down and enjoy any sport that is on television. Whether I'm at Fenway Park cheering for my Red Sox or the "Gahden" rooting for the Bruins, if it's a sport, I'm probably a fan of it. (Execpt golf...)</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/code.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coding</h5>
+                <p class="card-text">For me coding has been an off and on thing. I have always loved to do it, but I could never sit down to <em>really, really</em> learn how to do it. I am taking this new step and building this website to show how much I can do it.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Music</h5>
+                <p class="card-text">While I can't play a note, some of the my favorite things to do is sing and listen to music. Most people don't know I can sing, but it's true! I've been singing since I was young and always enjoy doing so in the car when I'm by myself. Sometimes it helps just to have a jam session with yourself! 🎤 🎶</p>
+              </div>
+            </div>
           </div>
         </div>
-        </section>
-        <div class="alert alert-dark" role="alert">
-          This website is still under construction and will look weird.</div>
-      </div>
-    </div>
+
+      </section>
+    <footer class="alert alert-dark" role="alert">
+      ❤️ This website is still under construction and will look weird.
+    </footer>
+  </div>
+
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
